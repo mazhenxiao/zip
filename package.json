@@ -1,11 +1,14 @@
 {
-  "name": "zip",
+  "name": "webpackZIP",
   "version": "1.0.0",
   "description": "生成zip",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author":{
+    "email": "mazhenxiao@hotmail.com",
+    "name": "mazhenxiao",
+    "url": "https://github.com/mazhenxiao/zip.git"
+  }
 }

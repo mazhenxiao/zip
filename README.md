@@ -20,11 +20,16 @@ apt-get install tar
 |arg0|压缩目录名称,与压缩包同名|"dist"|
 |arg1|压缩路径|默认"./"|
 
+```
+npm i polysoft_zip --save-dev
+yarn add polysoft_zip -D
+```
 ```javascript
+const polysoftZIP = require("polysoft_zip");
 module.exports = {
         configureWebpack: config => {
             return {
-                plugins: [new createZIP("dist")]
+                plugins: [new polysoftZIP("dist")]
             };
         }
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "webpackZIP",
+  "name": "webpack_zip",
   "version": "1.0.0",
   "description": "生成zip",
   "main": "plugin.js",
